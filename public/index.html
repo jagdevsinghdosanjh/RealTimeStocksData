@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Stock Data</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stock Data</h1>
+        <select id="company-select">
+            <option value="AAPL">Apple (AAPL)</option>
+            <option value="GOOGL">Google (GOOGL)</option>
+            <option value="MSFT">Microsoft (MSFT)</option>
+            <option value="NVDA">NVIDIA (NVDA)</option>
+            <option value="TSLA">Tesla (TSLA)</option>
+            <option value="INFY">Infosys Ltd.</option>
+        </select>
+        <div id="loading" style="display: none;">Loading...</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Volume</th>
+                    <th>VWAP</th>
+                    <th>Open</th>
+                    <th>Close</th>
+                    <th>High</th>
+                    <th>Low</th>
+                    <th>Trades</th>
+                </tr>
+            </thead>
+            <tbody id="stock-data"></tbody>
+        </table>
+        <button id="download-csv">Download CSV</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
