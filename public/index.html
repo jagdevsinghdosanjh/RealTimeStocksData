@@ -9,6 +9,7 @@
 <body>
     <div class="container">
         <h1>Stock Data</h1>
+        <label for="company-select">Choose a company:</label>
         <select id="company-select">
             <option value="AAPL">Apple (AAPL)</option>
             <option value="GOOGL">Google (GOOGL)</option>
@@ -16,8 +17,9 @@
             <option value="NVDA">NVIDIA (NVDA)</option>
             <option value="TSLA">Tesla (TSLA)</option>
             <option value="INFY">Infosys Ltd.</option>
-        </select>
-        <div id="loading" style="display: none;">Loading...</div>
+            </select>
+        </label>
+        <div id="loading" class="hidden">Loading...</div>
         <table>
             <thead>
                 <tr>
