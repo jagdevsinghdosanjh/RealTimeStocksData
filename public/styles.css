@@ -18,6 +18,24 @@ h1 {
     color: #333;
 }
 
+label {
+    text-align: center;
+    color: Yellow;
+    font-size: 40px;
+    display: block;
+    margin: 20px auto;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 2px #000;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+
+
+}
+
 select {
     display: block;
     margin: 20px auto;
