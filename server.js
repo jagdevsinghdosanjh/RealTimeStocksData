@@ -6,7 +6,7 @@ const { restClient } = require('@polygon.io/client-js');
 dotenv.config();
 const app = express();
 const port = process.env.PORT || 3000;
-const rest = restClient(process.env.POLYGON_API_KEY);
+const rest = restClient(process.env.Qr1E6i3PdteQk1HEVF8TmCDqPqXLknwn);
 
 app.use(express.static(path.resolve(__dirname, 'public')));
 
